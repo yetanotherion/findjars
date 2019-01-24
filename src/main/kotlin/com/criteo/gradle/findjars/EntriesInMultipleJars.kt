@@ -9,7 +9,7 @@ data class ConflictingJars private constructor (val jars: List<String>) {
 }
 
 class EntriesInMultipleJars {
-    private val entriesInMultipleJars: Map<String, Set<String>>
+    private val entriesoInMultipleJars: Map<String, Set<String>>
 
     constructor(entries: Collection<JarFileAndEntry>) {
         entriesInMultipleJars = of(entries)
